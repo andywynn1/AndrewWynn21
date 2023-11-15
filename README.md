@@ -1,2 +1,7 @@
-# AndrewWynn21
-hi
+# hi
+
+### Education
+highschool
+### Work Experience
+cub
+
