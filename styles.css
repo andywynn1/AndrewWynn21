@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.navbar {
+    background-color: rgb(255, 202, 6);
+    margin: 0px;
+    height: 10%;
+}
+.navbar ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: rgb(255, 202, 6);
+    overflow: hidden;
+}
+
+
+
+
+
+.navbar li{
+    float: left;
+}
+.dropdown button{
+    background: rgb(255, 202, 6);
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    height: 100%;
+    font-size: 32;
+    margin-right: 25px;
+    
+}
+
+.dropdown button:hover{
+    cursor: pointer;
+    background-color: rgb(158, 124, 0);
+}
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.dropdown .home{
+color: black;
+}
+
+.dropdown .dropdowncontent{
+    display: none;
+background-color: gray;
+z-index: 1;
+position: absolute;
+min-width: 10%;
+box-shadow: 2px 2px 5px hsla(0, 0, 0, 0.8);
+}
+
+.dropdown:hover .dropdowncontent{
+display: block;
+}
+
+.dropdown a:hover{
+    background-color: darkgray;
+}
+
+.dropdown .home:hover{
+background-color: rgb(158, 124, 0);
+}
+
+aside{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+article{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+section{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.player-list {
+    flex-direction: column;
+    max-width: 60%;
+    display: flex;
+  
+  }
+  *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+  .player-card {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    justify-content: center;
+    
+  }
+
+  .player-photo, .player-name, .player-rating, .team-logo, .size, .player-position {
+    margin-right: 10px; /* Adjust spacing between elements */
+    
+  }
+  
+
+  .player-position{
+    margin-left: 5%;
+  }
+
+  .player-photo {
+    margin-left: 8%;
+    margin-right: 8%;;
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+
+  
+
+  .player-name{
+    margin-right: 5px;
+  }
+
+  .player-rating .stars {
+    color: gold;
+    margin-right: 5px;
+  }
+
+  .player-rating .starsL{
+    color: gray;
+    margin-right: 5px;
+  }
+
+  .player-rating {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   margin-top: 2%;
+   margin-bottom: 2%;
+  }
+
+  .size{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .standings {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.standings-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.standings-row:last-child {
+    border-bottom: none; /* Remove border on the last row */
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+#A{
+    background-color: rgb( 255, 0, 0);
+    opacity: 70%;
+}
+
+#B{
+ background-color: blue;
+ opacity: 70%;
+}
