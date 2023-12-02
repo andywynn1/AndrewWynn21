@@ -108,11 +108,30 @@ section{
   .player-name, .player-rating, .player-position, .size, .rank {
       flex: 1; 
       margin: 0px; 
+      flex-direction: column;
+      text-align: center;
   }
 
   .player-rating {
       margin-top: 0; 
   }
+  .player-card {
+
+  
+    
+      display: flex;
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items horizontally within .player-card */
+  
+
+}
+
+.player-name,
+.player-position {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    width: 100%; 
+    margin-bottom: 5px; /* Adjust spacing between elements */
+}
 }
 @media (max-width: 600px) {
   .player-rating .stars {
