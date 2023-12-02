@@ -44,6 +44,7 @@ body{
 .dropdown button:hover{
     cursor: pointer;
     background-color: rgb(158, 124, 0);
+    color: black;
 }
 
 .dropdown a{
@@ -72,10 +73,12 @@ display: block;
 
 .dropdown a:hover{
     background-color: darkgray;
+    color: black;
 }
 
 .dropdown .home:hover{
 background-color: rgb(158, 124, 0);
+color: black;
 }
 
 aside{
@@ -92,6 +95,27 @@ section{
     float: left;
     width: 40%;
     padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .player-photo {
+      width: 100%; 
+      margin-right: 0; /
+  }
+
+  .player-name, .player-rating, .player-position, .size {
+      flex: 1; 
+      margin-right: 5px; 
+  }
+
+  .player-rating {
+      margin-top: 0; 
+  }
+}
+@media (max-width: 600px) {
+  .player-rating .stars {
+      font-size: 0.8em; 
+  }
 }
 
 .player-list {
