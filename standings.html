@@ -1,72 +1,92 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <nav class="navbar">
-        <ul>
-            <li class="dropdown">
-                <button>Teams↓</button>
-                <div class="dropdowncontent">
-                    <a href="standings.html"> Standings</a>
-                    <a> b</a>
-                    <a> c</a>
-                </div>
+        <div class="title"> EPHS Intramural Football</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="standings.html">Standings</a></li>
+            <li><a href="rankings.html">Rankings</a></li>
+            <li><a href="#">Schedule</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        </li>
-            <li class="dropdown">
-                <button>Players↓</button>
-                <div class="dropdowncontent">
-                    <a href="rankings.html"> Rankings</a>
-                    <a> b</a>
-                    <a> c</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <button><a class="home" href="index.html">Home</a></button>
-            </li>
-        </ul>
-            </nav>
+      <div class="standings"> <!--start-->
+        <div class="standings-row header">
+            <div class="column">Team Name</div>
+            <div class="column">Team Record</div>
+            <div class="column">PF</div>
+            <div class="column">PA</div>
+            <div class="column">Projected Record</div>
+        </div>
+
+        <div class="standings-row">
+            <div class="column" id="A">Team Village</div>
+            <div class="column">0-0</div>
+            <div class="column">0</div>
+            <div class="column">0</div>
+            <div class="column">0-0</div>
+        </div>
+
+        <div class="standings-row">
+            <div class="column" id="B">Team Sophomore</div>
+            <div class="column">0-0</div>
+            <div class="column">0</div>
+            <div class="column">0</div>
+            <div class="column">0</div>
+        </div>
+
+        <div class="standings-row">
+          <div class="column" id="C">Team Froseth</div>
+          <div class="column">0-0</div>
+          <div class="column">0</div>
+          <div class="column">0</div>
+          <div class="column">0</div>
+      </div>
+
+      <div class="standings-row">
+        <div class="column" id="D">Team Stone</div>
+        <div class="column">0-0</div>
+        <div class="column">0</div>
+        <div class="column">0</div>
+        <div class="column">0</div>
+    </div>
+
+    <div class="standings-row">
+      <div class="column" id="E">Team Amar</div>
+      <div class="column">0-0</div>
+      <div class="column">0</div>
+      <div class="column">0</div>
+      <div class="column">0</div>
+  </div>
+
+  <div class="standings-row">
+    <div class="column" id="F">Team Danny</div>
+    <div class="column">0-0</div>
+    <div class="column">0</div>
+    <div class="column">0</div>
+    <div class="column">0</div>
+</div>
 
 
-
-
-
-
-
-            <div class="standings">
-                <div class="standings-row header">
-                    <div class="column">Team Name</div>
-                    <div class="column">Team Record</div>
-                    <div class="column">PF</div>
-                    <div class="column">PA</div>
-                    <div class="column">Projected Record</div>
-                </div>
         
-                <div class="standings-row" >
-                    <div class="column" id="A">Team A</div>
-                    <div class="column">3-1</div>
-                    <div class="column">120</div>
-                    <div class="column">80</div>
-                    <div class="column">5-1</div>
-                </div>
-        
-                <div class="standings-row" >
-                    <div class="column" id="B">Team B</div>
-                    <div class="column">2-2</div>
-                    <div class="column">100</div>
-                    <div class="column">110</div>
-                    <div class="column">3-3</div>
-                </div>
-        
-                
-        
-            </div>
+
+    </div> <!--end-->
 
 
-    
+      
 </body>
 </html>
