@@ -106,7 +106,7 @@ body {
     flex-direction: column;
     max-width: 100%;
     display: flex;
-  
+    margin: auto;
   }
   *{
     box-sizing: border-box;
@@ -118,9 +118,11 @@ body {
     display: flex;
     align-items: center;
     border-top: 1px solid #ccc;
-    padding: 10px;
+    padding: 1px;
     justify-content: center;
     overflow: hidden;
+    position: relative;
+    margin: 0;
   }
 
   .player-photo, .player-name, .player-rating, .team-logo, .size, .player-position {
@@ -131,6 +133,13 @@ body {
 
   .player-position{
     margin-left: 5%;
+
+
+  }
+
+  .box{
+border-radius: 5px;
+border: 2px;
   }
 
   .player-photo {
@@ -141,12 +150,14 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    flex-shrink: 0;
   }
 
-  
+ 
 
   .player-name{
     margin-right: 5px;
+    margin-left: 25px;
   }
 
   .player-rating .stars {
