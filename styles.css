@@ -221,30 +221,30 @@ body {
     opacity: 70%;
 }
 
-#red{
+#red, #Stone{
     background-color: rgb( 255, 0, 0);
    
 }
 
-#lblue{
+#lblue, #Sophomore{
  background-color: lightblue;
  
 }
 
-#tropical{
+#tropical, #Froseth{
     background-color: aquamarine;
 }
 
-#spink{
+#spink, #Ammar{
 background-color: pink;
 }
 
-#black{
+#black, #Dylan{
 background-color: rgb(255, 255, 255);
 
 }
 
-#charcoal{
+#charcoal, #Village{
 background-color: rgb(107, 100, 100);
 }
 
@@ -252,11 +252,13 @@ background-color: rgb(107, 100, 100);
     background-color: rgb(233, 244, 136);
 }
 
-#green{
+.green{
     background-color: rgb(91, 142, 91);
 }
 
-#dgreen{
+
+
+.dgreen{
     background-color: rgb(53, 112, 53);
 }
 
@@ -264,6 +266,7 @@ background-color: rgb(107, 100, 100);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+   
 }
 
 .box {
@@ -271,6 +274,7 @@ background-color: rgb(107, 100, 100);
     padding: 20px;
     border: 1px solid #000000;
     box-sizing: border-box;
+    background-color: rgb(91, 142, 91);
 }
 
 @media (max-width: 768px) {
