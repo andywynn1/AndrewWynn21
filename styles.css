@@ -194,6 +194,7 @@ body {
   .standings {
     width: 100%;
     margin: 20px 0;
+    background-color: white;
 }
 
 .standings-row {
@@ -220,31 +221,43 @@ body {
     opacity: 70%;
 }
 
-#A{
+#red{
     background-color: rgb( 255, 0, 0);
    
 }
 
-#B{
- background-color: blue;
+#lblue{
+ background-color: lightblue;
  
 }
 
-#C{
-    background-color: green;
+#tropical{
+    background-color: aquamarine;
 }
 
-#D{
-background-color: yellow;
+#spink{
+background-color: pink;
 }
 
-#E{
-background-color: gray;
+#black{
+background-color: rgb(255, 255, 255);
 
 }
 
-#F{
-background-color: purple;
+#charcoal{
+background-color: rgb(107, 100, 100);
+}
+
+#yellow{
+    background-color: rgb(233, 244, 136);
+}
+
+#green{
+    background-color: rgb(91, 142, 91);
+}
+
+#dgreen{
+    background-color: rgb(53, 112, 53);
 }
 
 .container {
@@ -256,7 +269,7 @@ background-color: purple;
 .box {
     width: 48%; /* Adjust as needed */
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     box-sizing: border-box;
 }
 
