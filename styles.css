@@ -221,30 +221,30 @@ body {
     opacity: 70%;
 }
 
-#red, #Stone{
+#red, #Stone, .red{
     background-color: rgb( 255, 0, 0);
    
 }
 
-#lblue, #Sophomore{
+#lblue, #Sophomore, .lblue{
  background-color: lightblue;
  
 }
 
-#tropical, #Froseth{
+#tropical, #Froseth, .tropical{
     background-color: aquamarine;
 }
 
-#spink, #Ammar{
-background-color: pink;
+#spink, #Ammar, .spink{
+background-color: rgb(255, 192, 203);
 }
 
-#black, #Dylan{
-background-color: rgb(255, 255, 255);
-
+#black, #Dylan, .black{
+background-color: rgb(0, 0, 0);
+color: white;
 }
 
-#charcoal, #Village{
+#charcoal, #Village, .charcoal{
 background-color: rgb(107, 100, 100);
 }
 
@@ -275,6 +275,18 @@ background-color: rgb(107, 100, 100);
     border: 1px solid #000000;
     box-sizing: border-box;
     background-color: rgb(91, 142, 91);
+    overflow: hidden;
+    
+}
+
+.box img{
+height: auto;
+display: block;
+max-height: 200px;
+}
+
+.box h2{
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -302,3 +314,30 @@ background-color: rgb(107, 100, 100);
       margin-left: 0; 
     }
   }
+
+  .matchup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    background-color: rgb(91, 142, 91);
+    margin-bottom: 10px;
+}
+
+.team-box {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    color: #fff; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.vs {
+    font-size: 20px;
+    margin: 0 10px;
+}
